@@ -52,7 +52,56 @@ STEP 6: Use zscore of to remove outliers
             #CALCULATE MEAN VALUE OF A COLUMN AND FILL IT WITH NULL VALUES
 ![image](https://github.com/user-attachments/assets/317aafea-4c91-4482-8b36-3d331ca0c388)
 
+            #DROP NULL VALUES
+![image](https://github.com/user-attachments/assets/6a29d8a6-1473-4dd8-a1ba-b77cb03b6cdf)
 
+            import pandas as pd
+            import seaborn as sns
+            age=[1,3,28,27,25,92,30,39,40,50,26,24,29,94]
+            af=pd.DataFrame(age)
+            af
+            
+            #USE BOXPLOT FUNCTION HERE TO DETECT OUTLIER
+![image](https://github.com/user-attachments/assets/1c9eac28-af29-46aa-83c2-71e69eb47ef4)
+
+            #PERFORM IQR METHOD AND DETECT OUTLIER VALUES
+![image](https://github.com/user-attachments/assets/0168fbaf-b8a8-45dc-be7b-793bf66e15d9)
+![image](https://github.com/user-attachments/assets/5d7d9e10-41ec-4ea3-b79a-edf9b174ea69)
+
+            #REMOVE OUTLIERS
+![image](https://github.com/user-attachments/assets/b0fa99e5-d926-4dcd-ad42-f61e60f4d56e)
+![image](https://github.com/user-attachments/assets/9973a3f7-4530-4dc3-87b3-cb3afb6e1022)
+![image](https://github.com/user-attachments/assets/c1ae6801-c2a2-41a7-bfd2-34eb58156f87)
+
+            #USE BOXPLOT FUNCTION HERE TO CHECK OUTLIER IS REMOVED
+![image](https://github.com/user-attachments/assets/dc9d7e7f-c192-4de6-afdd-89cb4cfd1d55)
+
+
+            from scipy import stats #STATS METHOD IS USED TO IMPLEMENT Z SCORE METHOD
+            data=[1,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90,93,96,99,158]
+            df=pd.DataFrame(data)
+            #USE BOXPLOT FUNCTION HERE TO DETECT OUTLIER
+![image](https://github.com/user-attachments/assets/c4168ef6-7bc9-4598-b665-50554f50e12f)
+
+            #PERFORM Z SCORE METHOD AND DETECT OUTLIER VALUES
+![image](https://github.com/user-attachments/assets/4824a2dc-3780-4483-8306-82566ef30481)
+
+            #REMOVE OUTLIERS
+            #USE BOXPLOT FUNCTION HERE TO CHECK OUTLIER IS REMOVED
+![image](https://github.com/user-attachments/assets/949379fa-e57a-4298-b263-49515e1dea93)
+
+     
+
+
+
+
+
+
+
+
+
+
+     
 
 
 
