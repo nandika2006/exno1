@@ -90,27 +90,5 @@ STEP 6: Use zscore of to remove outliers
             #USE BOXPLOT FUNCTION HERE TO CHECK OUTLIER IS REMOVED
 ![image](https://github.com/user-attachments/assets/949379fa-e57a-4298-b263-49515e1dea93)
 
-     
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
 # Result
-          <<include your Result here>>
+Thus the Data Cleaning Process and Detecting and Removal of Outliers is executed successfully.
